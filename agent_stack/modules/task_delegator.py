@@ -51,7 +51,7 @@ class TaskDelegator:
     DEFAULT_RULES: list[tuple[str, str]] = [
         (r"scan.*network|port.*scan|discover.*host", "network-scanner"),
         (r"wifi|wireless|802\.11|ap.*scan", "wifi-auditor"),
-        (r"web.*scan|recon.*web|endpoint.*discovery", "web-recon"),
+        (r"web.*recon|web.*scan|recon.*web|endpoint.*discovery", "web-recon"),
     ]
 
     def __init__(self) -> None:
