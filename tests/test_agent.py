@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from agent_stack.core.agent import AgentResult, AgentState, SecurityAgent
+from agent_stack.core.agent import AgentResult, SecurityAgent
 
 
 class TestAgentResult:

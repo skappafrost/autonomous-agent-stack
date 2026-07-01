@@ -12,7 +12,7 @@ import json
 import click
 
 from agent_stack import __version__
-from agent_stack.core.orchestrator import AgentOrchestrator, Task
+from agent_stack.core.orchestrator import AgentOrchestrator
 from agent_stack.modules.security_agents import SecurityAgents
 from agent_stack.modules.task_delegator import TaskDelegator
 
